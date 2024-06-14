@@ -24,44 +24,51 @@ Follow these steps to get the PDF Application up and running:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/pdf-application.git
-   cd pdf-application
+   git clone https://github.com/tishanW98/pdf-app.git
+   cd pdf-app
    ```
 
 2. **Install dependencies:**
 
-Copy code
-npm install
+   ```bash
+      Copy code
+      npm install
+   ```
 
 3. **Set up environment variables:**
    Create a .env file in the root directory based on .env.example and configure the environment variables.
 
 4. **Start the server:**
 
-Copy code
-cd backend
-npm run dev
+   ```bash
+      Copy code
+      cd backend
+      npm run dev
+   ```
 
 5. **Start the client (React frontend):**
 
-Copy code
-cd frontend/pdf-app
-npm install
-npm run dev
+   ```bash
+      Copy code
+      cd frontend/pdf-app
+      npm install
+      npm run dev
+   ```
 
 6. **Usage**
-   Authentication
-   Signup: Navigate to /signup to create a new account.
-   Login: Navigate to /login to access your account.
-   Uploading PDF Files
-   Upload: Once authenticated, navigate to /upload to upload PDF files.
-   View PDFs: Navigate to /pdfs to view all uploaded PDF files.
+
+   - Authentication
+   - Signup: Navigate to /signup to create a new account.
+   - Login: Navigate to /login to access your account.
+   - Uploading PDF Files
+   - Upload: Once authenticated, navigate to /upload to upload PDF files.
+   - View PDFs: Navigate to /pdfs to view all uploaded PDF files.
 
 7. **API Endpoints**
 
-The following API endpoints are available:
+- The following API endpoints are available:
 
-POST /user/signup: Create a new user account.
-POST /auth/login: Authenticate and login a user.
-POST /pdf/upload: Upload a PDF file.
-GET /pdfs: Get all uploaded PDF files.
+- POST /user/signup: Create a new user account.
+- POST /auth/login: Authenticate and login a user.
+- POST /pdf/upload: Upload a PDF file.
+- GET /pdfs: Get all uploaded PDF files.
